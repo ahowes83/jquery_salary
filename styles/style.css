@@ -1,0 +1,19 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: azure;
+}
+
+td, th {
+  border: 2px solid lightgray;
+  text-align: left;
+  padding:4px;
+}
+
+tr:nth-child(even) {
+  background-color: whitesmoke;
+}
+
+.headers{
+  background-color: lightblue;
+}
